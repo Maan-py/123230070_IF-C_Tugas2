@@ -21,7 +21,7 @@ import java.awt.event.ActionEvent;
     JLabel result;
    
     JTextField usernameInput;
-    JTextField passwordInput;
+    JPasswordField passwordInput;
     
     JButton loginButton;
     
@@ -34,8 +34,8 @@ import java.awt.event.ActionEvent;
         usernameLabel = new JLabel("Username : ");
         passwordLabel = new JLabel("Password : ");
         
-        usernameInput = new JTextField(10);
-        passwordInput = new JTextField(10);
+        usernameInput = new JTextField();
+        passwordInput = new JPasswordField();
         
         loginButton = new JButton("Masuk");
         
